@@ -1,0 +1,112 @@
+.gelsnav {
+    background-color: #F7E4EC!important;
+    padding:0p
+  
+    
+}
+
+
+
+.main {
+    background-color: #F7E4EC;
+   text-align: center;
+   height:362px;
+   padding-top:10px;
+
+
+}
+.hamburger {
+    color: #707070; 
+}
+
+.maingel {
+    max-width: 85%;
+    max-height: 83%;
+
+
+
+}
+
+.rightmain {
+
+    padding-top:60px;
+
+}
+
+.name{ 
+    font-family: 'Bebas Neue', cursive;
+    font-size:60px;
+    color:#373A3C;
+
+}
+
+.title {
+    font-family: 'Bebas Neue', cursive;
+    font-size:40px;
+
+}
+.social {
+    padding-top: 15px;
+    align-content: center;
+
+}
+
+.linkedinlogo {
+    max-width:105%;
+    max-height:105%;
+}
+
+.facebooklogo {
+    max-width:100%;
+    max-height:100%;
+}
+
+.instagramlogo {
+    max-width:100%;
+    max-height:100%; }
+
+    .projectcards {
+     margin:15px;
+    }
+
+    .projects {
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .projectbutton {
+        background-color:rgb(209, 139, 149) !important;
+        border-color:rgba(250, 111, 181, 0.527) !important;
+    }
+
+.flowergel {
+    max-width: 20%;
+}
+
+.about {
+
+   text-align: center;
+    padding:5px;
+    background-color:rgba(255, 146, 131, 0.527);
+    margin-left:70px;
+    margin-right:70px;
+
+}
+
+.contact {
+    font-family: 'Bebas Neue', cursive;
+    font-size:40px;
+    color:#373A3C;
+}
+
+.specialize {
+    'Roboto', sans-serif;
+
+}
+
+.footer
+{
+    background-color: grey !important;
+}
