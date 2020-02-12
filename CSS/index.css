@@ -10,18 +10,29 @@
 .main {
     background-color: #F7E4EC;
    text-align: center;
-   height:362px;
+   
    padding-top:10px;
+   padding-bottom:0px;
 
 
 }
+
+@media only screen and (max-width:700px) {
+    .mainrow {
+        display:flex;
+        flex-direction: column;
+        background-size:cover;
+    }
+}
+
+
 .hamburger {
     color: #707070; 
 }
 
 .maingel {
-    max-width: 85%;
-    max-height: 83%;
+    max-width: 90%;
+    max-height: 90%;
 
 
 
@@ -55,6 +66,8 @@
     max-width:105%;
     max-height:105%;
 }
+
+
 
 .facebooklogo {
     max-width:100%;
