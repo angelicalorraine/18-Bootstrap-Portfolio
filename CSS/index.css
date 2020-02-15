@@ -1,23 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .gelsnav {
+    padding-bottom: 15px;
     background-color: #F7E4EC!important;
-    padding:0p
   
-    
 }
 
 
+
+.nav-item {
+  display:flex;
+  padding-right:30px;
+  padding-left:30px;
+}
+
+.jumbotron-fluid {
+    background-size:cover;
+    background-color: #F7E4EC;
+    text-align: center;
+    margin:0px;
+    display:flex;
+}
 
 .main {
-    background-color: #F7E4EC;
-   text-align: center;
-   
-   padding-top:10px;
-   padding-bottom:0px;
-
-
+    display:flex;
 }
 
-@media only screen and (max-width:700px) {
+
+@media only screen and (max-width:576px) {
     .mainrow {
         display:flex;
         flex-direction: column;
@@ -25,46 +37,61 @@
     }
 }
 
+.leftmain {
+    display: flex;
+    justify-content: flex-end;
+}
 
 .hamburger {
     color: #707070; 
 }
 
 .maingel {
-    max-width: 90%;
-    max-height: 90%;
-
-
+    max-width: 70%;
+    max-height: 70%;
 
 }
 
+.mainrow {
+    display:flex;
+    align-items: center;
+}
+
 .rightmain {
-
-    padding-top:60px;
-
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top:30px;
+ 
 }
 
 .name{ 
     font-family: 'Bebas Neue', cursive;
-    font-size:60px;
+    font-size:55px;
     color:#373A3C;
 
 }
 
 .title {
-    font-family: 'Bebas Neue', cursive;
-    font-size:40px;
+    font-size:25px;
+    margin:5px;
 
 }
 .social {
-    padding-top: 15px;
+    padding: 17px;
     align-content: center;
+    margin:5px;
 
 }
 
 .linkedinlogo {
-    max-width:105%;
-    max-height:105%;
+    max-width:110%;
+    max-height:110%;
+}
+
+.linkedinlogo:hover {
+    max-width:120%;
+    max-height:120%;
 }
 
 
@@ -72,54 +99,92 @@
 .facebooklogo {
     max-width:100%;
     max-height:100%;
+    
 }
+
+.facebooklogo:hover {
+    max-width:110%;
+    max-height:110%;
+}
+
 
 .instagramlogo {
     max-width:100%;
-    max-height:100%; }
+    max-height:100%; 
+}
 
-    .projectcards {
+.instagramlogo:hover {
+    max-width:110%;
+    max-height:110%;
+    }
+
+
+.projectcards {
      margin:15px;
     }
 
-    .projects {
+
+.projects {
         display:flex;
         justify-content: center;
         text-align: center;
         font-family: 'Roboto', sans-serif;
     }
 
-    .projectbutton {
+.projectbutton {
         background-color:rgb(209, 139, 149) !important;
         border-color:rgba(250, 111, 181, 0.527) !important;
     }
 
+.projectbutton:hover {
+        background-color:rgba(255, 25, 94, 0.671) !important;
+        border-color:rgba(255, 0, 85, 0.527) !important;
+        border-width: 2px;
+        font-weight: 100;
+    }
+
 .flowergel {
-    max-width: 20%;
+    max-width: 25%;
 }
 
 .about {
 
    text-align: center;
-    padding:5px;
+    padding:20px;
     background-color:rgba(255, 146, 131, 0.527);
-    margin-left:70px;
-    margin-right:70px;
+
 
 }
 
-.contact {
+.whoiam {
     font-family: 'Bebas Neue', cursive;
     font-size:40px;
     color:#373A3C;
 }
 
-.specialize {
-    'Roboto', sans-serif;
+.contactquote {
+    display:flex;
+    align-items: center;
+}
 
+.contact {
+    padding:30px;
+}
+
+.contact_form {
+    border-style: solid;
+    border-width:1px;
+    border-color:black;
+    width:500px;
+    padding:10px;
+}
+
+.form-row {
+    padding:7px;
 }
 
 .footer
 {
-    background-color: grey !important;
+    background-color:#F7E4EC !important;
 }
+
